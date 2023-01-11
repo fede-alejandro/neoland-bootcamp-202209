@@ -3,8 +3,8 @@ const { useState, useEffect } = React
 function App(props) {
     log.info('App -> render')
 
-    user = users[0] // forzar home con usuario
-    const [view, setView] = useState('home')
+    // user = users[0] // forzar home con usuario
+    const [view, setView] = useState('login')
 
     useEffect(() => {
         log.info('App -> effect "componentDidMount"')
