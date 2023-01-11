@@ -1,5 +1,5 @@
 const { errors: { LengthError, FormatError, NotFoundError } } = require('com')
-const { User, Post } = require('../models')
+const { User, Post } = require('../../../../..')
 /**
  * Create post from user
  * 

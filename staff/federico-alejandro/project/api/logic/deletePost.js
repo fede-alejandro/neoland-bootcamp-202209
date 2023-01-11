@@ -1,6 +1,6 @@
 
 const { errors: { LengthError, NotFoundError } } = require('com')
-const { User, Post } = require('../models')
+const { User, Post } = require('../../../../..')
 /**
  * Delete post from a specific user
  * 

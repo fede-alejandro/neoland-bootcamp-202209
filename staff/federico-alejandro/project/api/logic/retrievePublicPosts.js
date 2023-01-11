@@ -1,5 +1,5 @@
 const { errors: { LengthError } } = require('com')
-const { User, Post } = require('../models')
+const { User, Post } = require('../../../../..')
 /**
  * Retrieves all public posts (from all users)
  * 

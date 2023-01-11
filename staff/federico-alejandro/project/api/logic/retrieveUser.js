@@ -1,5 +1,5 @@
 const { errors: { NotFoundError } } = require('com')
-const { User } = require('../models')
+const { User } = require('../../../../..')
 
 function retrieveUser(userId) {
     if (typeof userId !== 'string') throw new TypeError('userId is not a string')
