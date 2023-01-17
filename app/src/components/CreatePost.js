@@ -50,9 +50,10 @@ function CreatePost({ onCreated, onClose }) {
 
                 <label className='font-bold' htmlFor='text'>Text</label>
                 <textarea className='bg-slate-100 border-b border-black text-black rounded-xl text-center' type='text' name='text' id='text' placeholder='input a text'></textarea>
-
+                {/* img id='foto' class='img-thumbnail' src=''> */}
                 <label className='font-bold' htmlFor='image'>Image</label>
-                <input className='bg-slate-100 border-b border-black text-black rounded-xl text-center' type='text' name='image' id='image' placeholder='input an image url' />
+                <input className='bg-slate-100 border-b border-black text-black rounded-xl text-center' type='file' accept='image/png, image/jpeg' placeholder='input an image url' />
+                {/* <input className='bg-slate-100 border-b border-black text-black rounded-xl text-center' type='text' name='image' id='image' placeholder='input an image url' /> */}
 
                 <label htmlFor='visibility'><MdOutlineVisibility /></label>
                 <select className='bg-slate-100 text-black' id='visibility' name='visibility'>
