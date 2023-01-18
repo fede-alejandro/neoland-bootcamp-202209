@@ -22,7 +22,12 @@ module.exports = new Schema({
         required: true
     },
     image: {
-        type: String
+        type: String,
+        // desc: String,
+        // img: {
+        //     data: Buffer,
+        //     contentType: String
+        // }
     },
     date: {
         type: Date,

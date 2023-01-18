@@ -2,7 +2,7 @@
 
 ## Intro
 
-Is an web to donate what you no longer use, if you want to give your things a second life, publish it!. The donor decides to whom he/she wants to donate it. It also contains information on how to recycle and take care of the planet.  
+Is a web to donate what you no longer use, if you want to give your things a second life, publish it!. The donor decides to whom he/she wants to donate it. It also contains information on how to recycle and take care of the planet.  
 
 ![](https://media.tenor.com/yEW0bneCw30AAAAC/gif1.gif) 
 

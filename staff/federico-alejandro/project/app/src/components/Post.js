@@ -170,6 +170,7 @@ function Post({ post: postFromProps, onPostUpdated, onPostDeleted }) {
                 <div className=' m-2 border rounded-xl'>
                     <h2 className='font-bold'>{post.title}</h2>
                     <p className='ml-2'>{post.text}</p>
+                    {/* {post.image && <div className='w-fit h-fit'><img src='' id='foto' alt='' className='img-thumbnail' /></div>} */}
                     {post.image && <div className='w-fit h-fit'><img src={post.image} alt='' /></div>}
                 </div>
                 <div className='flex justify-between'>

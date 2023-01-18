@@ -68,6 +68,7 @@ function createPost(token, title, text, visibility, image) {
         xhr.open('POST', 'http://localhost/posts')
         xhr.setRequestHeader('Authorization', `Bearer ${token}`)
         xhr.setRequestHeader('Content-Type', 'application/json')
+        xhr.setRequestHeader('Content-Type', 'image/png, image/jpeg')
 
         const payload = { title, text, visibility }
 
